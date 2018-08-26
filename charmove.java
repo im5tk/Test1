@@ -9,7 +9,7 @@ public class charmove extends Applet implements KeyListener
 
     public void init()
     {   setBackground(Color.white);
-        img = getImage(getDocumentBase(),"chr47.gif");
+        img = getImage(getDocumentBase(),"mario.gif");
         addKeyListener(this);
     }
 
