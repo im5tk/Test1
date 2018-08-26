@@ -1,0 +1,2 @@
+javac charmove.java
+appletviewer htmlƒtƒ@ƒCƒ‹.html
