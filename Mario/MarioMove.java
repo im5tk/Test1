@@ -3,7 +3,7 @@ import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class charmove extends Applet implements KeyListener
+public class MarioMove extends Applet implements KeyListener
 {   static  Image   img;
     int     x= 80, y= 50, dir= 0, num= 0;
 
