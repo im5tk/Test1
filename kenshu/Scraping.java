@@ -1,4 +1,4 @@
-package biz.no1s.kenshu;
+﻿package biz.no1s.kenshu;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class Scraping {
 			//「key=」の後にAPI_keyを入れてください
 			String urlname = "https://sheets.googleapis.com/v4/spreadsheets/"
 					+ "11BCnspCt2Mut3nhc4WMY6CYTd0zF9C3eCzsk1AEpKLM/values/"
-					+ "A1:E6?key=AIzaSyDwxpicDSa3GBcLJmgE1yxdtjYpIJFogcA";
+					+ "A1:E6?key=";
 			URL url = new URL(urlname);
 			Object content = url.getContent();
 			if(content instanceof InputStream){
